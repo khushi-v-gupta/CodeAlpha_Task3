@@ -92,11 +92,12 @@ int main() {
     };
 
     if (solveSudoku(grid)) {
-        cout << "✔ Sudoku Solved Successfully!\n\n";
+        cout << "Sudoku Solved Successfully!\n\n";
         printGrid(grid);
     } else {
-        cout << "❌ No solution exists\n";
+        cout << "No solution exists\n";
     }
 
     return 0;
 }
+
